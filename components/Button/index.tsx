@@ -2,7 +2,7 @@ import {BaseProps} from '../_base/type';
 import {css} from '@emotion/react';
 import styled from '@emotion/styled';
 import tw, {theme} from 'twin.macro';
-import {FC} from 'react';
+import React, {FC} from 'react';
 
 type Size = 'default' | 'small' | 'large';
 type Type = 'primary' | 'secondary' | 'tertiary' | 'warning' | 'danger';
